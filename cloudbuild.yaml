@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: [
+  'cp', '*.svg', 'gs://messenger-animations-svg/'
+  ]
+images: []
